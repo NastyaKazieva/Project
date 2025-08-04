@@ -27,7 +27,8 @@
 		BFB625EB2E3F6AA200B5257F /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFB625E92E3F6AA200B5257F /* ToDoList.xcdatamodeld */; };
 		BFB625ED2E3F6E0300B5257F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625EC2E3F6E0300B5257F /* Response.swift */; };
 		BFB625EF2E40BBF500B5257F /* StatusIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625EE2E40BBF500B5257F /* StatusIconView.swift */; };
-		BFB625F72E40EC0D00B5257F /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625F62E40EC0D00B5257F /* ProjectTests.swift */; };
+		BFB625FE2E414BDE00B5257F /* ReminderListModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625FD2E414BDE00B5257F /* ReminderListModelTests.swift */; };
+		BFB626002E41521300B5257F /* EditReminderViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625FF2E41521300B5257F /* EditReminderViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +64,8 @@
 		BFB625EC2E3F6E0300B5257F /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		BFB625EE2E40BBF500B5257F /* StatusIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIconView.swift; sourceTree = "<group>"; };
 		BFB625F42E40EC0D00B5257F /* ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB625F62E40EC0D00B5257F /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		BFB625FD2E414BDE00B5257F /* ReminderListModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderListModelTests.swift; sourceTree = "<group>"; };
+		BFB625FF2E41521300B5257F /* EditReminderViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditReminderViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +142,8 @@
 		BFB625F52E40EC0D00B5257F /* ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				BFB625F62E40EC0D00B5257F /* ProjectTests.swift */,
+				BFB625FF2E41521300B5257F /* EditReminderViewModelTests.swift */,
+				BFB625FD2E414BDE00B5257F /* ReminderListModelTests.swift */,
 			);
 			path = ProjectTests;
 			sourceTree = "<group>";
@@ -270,7 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB625F72E40EC0D00B5257F /* ProjectTests.swift in Sources */,
+				BFB626002E41521300B5257F /* EditReminderViewModelTests.swift in Sources */,
+				BFB625FE2E414BDE00B5257F /* ReminderListModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

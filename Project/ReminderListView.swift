@@ -69,7 +69,7 @@ struct ReminderListView: View {
                 .listRowInsets(EdgeInsets())
                 .padding(.vertical)
             }
-            .navigationTitle("Tasks")
+            .navigationTitle("Задачи")
             .navigationBarTitleDisplayMode(.large)
             .navigationDestination(for: Route.self) { route in
                 switch route {

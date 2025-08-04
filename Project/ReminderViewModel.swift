@@ -9,7 +9,7 @@
 import CoreData
 import Foundation
 
-enum SaveError: Error, LocalizedError {
+enum SaveError: Error, LocalizedError, Equatable {
         case invalid(String)
 
         var errorDescription: String? {
