@@ -11,7 +11,34 @@
 		BFB625BF2E28FB8900B5257F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625BE2E28FB8900B5257F /* ContentView.swift */; };
 		BFB625C12E28FB8A00B5257F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB625C02E28FB8A00B5257F /* Assets.xcassets */; };
 		BFB625C42E28FB8A00B5257F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB625C32E28FB8A00B5257F /* Preview Assets.xcassets */; };
+		BFB625CD2E3F63F500B5257F /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625CC2E3F63F500B5257F /* ReminderListView.swift */; };
+		BFB625CF2E3F648500B5257F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625CE2E3F648500B5257F /* DataController.swift */; };
+		BFB625D12E3F650E00B5257F /* ReminderListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625D02E3F650E00B5257F /* ReminderListModel.swift */; };
+		BFB625D32E3F655000B5257F /* ReminderSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625D22E3F655000B5257F /* ReminderSummaryView.swift */; };
+		BFB625D52E3F659A00B5257F /* ReminderSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625D42E3F659A00B5257F /* ReminderSummaryViewModel.swift */; };
+		BFB625D72E3F65D800B5257F /* DateConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625D62E3F65D800B5257F /* DateConvert.swift */; };
+		BFB625D92E3F665D00B5257F /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625D82E3F665D00B5257F /* Reminder.swift */; };
+		BFB625DB2E3F66ED00B5257F /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625DA2E3F66ED00B5257F /* ReminderView.swift */; };
+		BFB625DD2E3F671B00B5257F /* ReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625DC2E3F671B00B5257F /* ReminderViewModel.swift */; };
+		BFB625DF2E3F67B900B5257F /* EditReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625DE2E3F67B900B5257F /* EditReminderView.swift */; };
+		BFB625E12E3F67DC00B5257F /* EditReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625E02E3F67DC00B5257F /* EditReminderViewModel.swift */; };
+		BFB625E32E3F681800B5257F /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625E22E3F681800B5257F /* ReminderDetailView.swift */; };
+		BFB625E82E3F690300B5257F /* ReminderSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625E72E3F690300B5257F /* ReminderSamples.swift */; };
+		BFB625EB2E3F6AA200B5257F /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFB625E92E3F6AA200B5257F /* ToDoList.xcdatamodeld */; };
+		BFB625ED2E3F6E0300B5257F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625EC2E3F6E0300B5257F /* Response.swift */; };
+		BFB625EF2E40BBF500B5257F /* StatusIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625EE2E40BBF500B5257F /* StatusIconView.swift */; };
+		BFB625F72E40EC0D00B5257F /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB625F62E40EC0D00B5257F /* ProjectTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFB625F82E40EC0D00B5257F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFB625B12E28FB8900B5257F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFB625B82E28FB8900B5257F;
+			remoteInfo = Project;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BFB625B92E28FB8900B5257F /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +46,35 @@
 		BFB625BE2E28FB8900B5257F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFB625C02E28FB8A00B5257F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB625C32E28FB8A00B5257F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFB625CC2E3F63F500B5257F /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		BFB625CE2E3F648500B5257F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		BFB625D02E3F650E00B5257F /* ReminderListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListModel.swift; sourceTree = "<group>"; };
+		BFB625D22E3F655000B5257F /* ReminderSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSummaryView.swift; sourceTree = "<group>"; };
+		BFB625D42E3F659A00B5257F /* ReminderSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSummaryViewModel.swift; sourceTree = "<group>"; };
+		BFB625D62E3F65D800B5257F /* DateConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConvert.swift; sourceTree = "<group>"; };
+		BFB625D82E3F665D00B5257F /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		BFB625DA2E3F66ED00B5257F /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		BFB625DC2E3F671B00B5257F /* ReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewModel.swift; sourceTree = "<group>"; };
+		BFB625DE2E3F67B900B5257F /* EditReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderView.swift; sourceTree = "<group>"; };
+		BFB625E02E3F67DC00B5257F /* EditReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderViewModel.swift; sourceTree = "<group>"; };
+		BFB625E22E3F681800B5257F /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
+		BFB625E72E3F690300B5257F /* ReminderSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSamples.swift; sourceTree = "<group>"; };
+		BFB625EA2E3F6AA200B5257F /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		BFB625EC2E3F6E0300B5257F /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		BFB625EE2E40BBF500B5257F /* StatusIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIconView.swift; sourceTree = "<group>"; };
+		BFB625F42E40EC0D00B5257F /* ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB625F62E40EC0D00B5257F /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BFB625B62E28FB8900B5257F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB625F12E40EC0D00B5257F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				BFB625BB2E28FB8900B5257F /* Project */,
+				BFB625F52E40EC0D00B5257F /* ProjectTests */,
 				BFB625BA2E28FB8900B5257F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BFB625B92E28FB8900B5257F /* Project.app */,
+				BFB625F42E40EC0D00B5257F /* ProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +105,23 @@
 		BFB625BB2E28FB8900B5257F /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				BFB625BC2E28FB8900B5257F /* ProjectApp.swift */,
 				BFB625BE2E28FB8900B5257F /* ContentView.swift */,
+				BFB625BC2E28FB8900B5257F /* ProjectApp.swift */,
+				BFB625CE2E3F648500B5257F /* DataController.swift */,
+				BFB625D62E3F65D800B5257F /* DateConvert.swift */,
+				BFB625D82E3F665D00B5257F /* Reminder.swift */,
+				BFB625EC2E3F6E0300B5257F /* Response.swift */,
+				BFB625CC2E3F63F500B5257F /* ReminderListView.swift */,
+				BFB625D02E3F650E00B5257F /* ReminderListModel.swift */,
+				BFB625D22E3F655000B5257F /* ReminderSummaryView.swift */,
+				BFB625D42E3F659A00B5257F /* ReminderSummaryViewModel.swift */,
+				BFB625DA2E3F66ED00B5257F /* ReminderView.swift */,
+				BFB625DC2E3F671B00B5257F /* ReminderViewModel.swift */,
+				BFB625DE2E3F67B900B5257F /* EditReminderView.swift */,
+				BFB625E02E3F67DC00B5257F /* EditReminderViewModel.swift */,
+				BFB625E22E3F681800B5257F /* ReminderDetailView.swift */,
+				BFB625EE2E40BBF500B5257F /* StatusIconView.swift */,
+				BFB625E92E3F6AA200B5257F /* ToDoList.xcdatamodeld */,
 				BFB625C02E28FB8A00B5257F /* Assets.xcassets */,
 				BFB625C22E28FB8A00B5257F /* Preview Content */,
 			);
@@ -62,9 +131,18 @@
 		BFB625C22E28FB8A00B5257F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				BFB625E72E3F690300B5257F /* ReminderSamples.swift */,
 				BFB625C32E28FB8A00B5257F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFB625F52E40EC0D00B5257F /* ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB625F62E40EC0D00B5257F /* ProjectTests.swift */,
+			);
+			path = ProjectTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +165,24 @@
 			productReference = BFB625B92E28FB8900B5257F /* Project.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFB625F32E40EC0D00B5257F /* ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB625FA2E40EC0D00B5257F /* Build configuration list for PBXNativeTarget "ProjectTests" */;
+			buildPhases = (
+				BFB625F02E40EC0D00B5257F /* Sources */,
+				BFB625F12E40EC0D00B5257F /* Frameworks */,
+				BFB625F22E40EC0D00B5257F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFB625F92E40EC0D00B5257F /* PBXTargetDependency */,
+			);
+			name = ProjectTests;
+			productName = ProjectTests;
+			productReference = BFB625F42E40EC0D00B5257F /* ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +195,10 @@
 				TargetAttributes = {
 					BFB625B82E28FB8900B5257F = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					BFB625F32E40EC0D00B5257F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BFB625B82E28FB8900B5257F;
 					};
 				};
 			};
@@ -116,6 +216,7 @@
 			projectRoot = "";
 			targets = (
 				BFB625B82E28FB8900B5257F /* Project */,
+				BFB625F32E40EC0D00B5257F /* ProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +231,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFB625F22E40EC0D00B5257F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +245,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB625E82E3F690300B5257F /* ReminderSamples.swift in Sources */,
+				BFB625DF2E3F67B900B5257F /* EditReminderView.swift in Sources */,
+				BFB625CD2E3F63F500B5257F /* ReminderListView.swift in Sources */,
+				BFB625ED2E3F6E0300B5257F /* Response.swift in Sources */,
+				BFB625D32E3F655000B5257F /* ReminderSummaryView.swift in Sources */,
+				BFB625CF2E3F648500B5257F /* DataController.swift in Sources */,
+				BFB625D72E3F65D800B5257F /* DateConvert.swift in Sources */,
+				BFB625E32E3F681800B5257F /* ReminderDetailView.swift in Sources */,
 				BFB625BF2E28FB8900B5257F /* ContentView.swift in Sources */,
+				BFB625D12E3F650E00B5257F /* ReminderListModel.swift in Sources */,
+				BFB625DB2E3F66ED00B5257F /* ReminderView.swift in Sources */,
+				BFB625E12E3F67DC00B5257F /* EditReminderViewModel.swift in Sources */,
+				BFB625D92E3F665D00B5257F /* Reminder.swift in Sources */,
+				BFB625D52E3F659A00B5257F /* ReminderSummaryViewModel.swift in Sources */,
 				BFB625BD2E28FB8900B5257F /* ProjectApp.swift in Sources */,
+				BFB625EF2E40BBF500B5257F /* StatusIconView.swift in Sources */,
+				BFB625DD2E3F671B00B5257F /* ReminderViewModel.swift in Sources */,
+				BFB625EB2E3F6AA200B5257F /* ToDoList.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB625F02E40EC0D00B5257F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB625F72E40EC0D00B5257F /* ProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFB625F92E40EC0D00B5257F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFB625B82E28FB8900B5257F /* Project */;
+			targetProxy = BFB625F82E40EC0D00B5257F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BFB625C52E28FB8A00B5257F /* Debug */ = {
@@ -320,6 +460,40 @@
 			};
 			name = Release;
 		};
+		BFB625FB2E40EC0D00B5257F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nastya.ProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Project";
+			};
+			name = Debug;
+		};
+		BFB625FC2E40EC0D00B5257F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nastya.ProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Project";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,7 +515,30 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BFB625FA2E40EC0D00B5257F /* Build configuration list for PBXNativeTarget "ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB625FB2E40EC0D00B5257F /* Debug */,
+				BFB625FC2E40EC0D00B5257F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFB625E92E3F6AA200B5257F /* ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFB625EA2E3F6AA200B5257F /* ToDoList.xcdatamodel */,
+			);
+			currentVersion = BFB625EA2E3F6AA200B5257F /* ToDoList.xcdatamodel */;
+			name = ToDoList.xcdatamodeld;
+			path = /Users/nastyashlepakova/Documents/GitHub/Project/Project/ToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BFB625B12E28FB8900B5257F /* Project object */;
 }

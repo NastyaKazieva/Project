@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import os
+
+let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "ToDoList", category: "General")
 
 @main
 struct ProjectApp: App {
+    @StateObject private var dataController = DataController()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ReminderListView(context: dataController.container.viewContext)
+                .environment(\.managedObjectContext, dataController.container.viewContext)
+                .preferredColorScheme(.dark)
         }
     }
 }
