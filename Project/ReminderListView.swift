@@ -55,7 +55,7 @@ struct ReminderListView: View {
                         } preview: {
                             ReminderSummaryView(viewModel: ReminderSummaryViewModel( reminder: reminder))
                                 .padding()
-                                .frame(minWidth: viewModel.viewWidth, alignment: .leading)
+                                .frame(minWidth: viewModel.viewWidth, minHeight: 50, maxHeight: .infinity, alignment: .leading)
                                 .background( Color(UIColor.secondarySystemGroupedBackground))
                                 .environment(\.colorScheme, colorScheme)
                                 .containerRelativeFrame(.horizontal)
