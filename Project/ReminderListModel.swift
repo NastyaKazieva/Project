@@ -146,6 +146,7 @@ class ReminderListModel: ObservableObject {
                                 newItem.reminderStatus = .notReady
                             }
                             self.saveContext()
+                            self.fetchItems()
                         }
                     }
                     UserDefaults.standard.set(false, forKey: "isFirstLoad")
